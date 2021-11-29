@@ -1,300 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>This is my portfolio</title>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>responsive personal portfolio website design tutorail</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="stylee.css">
+    <link rel="stylesheet" href="css/stylee.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
 
-</head>
-<body>
-    
-<!-- header section starts  -->
-
-<header>
-
-    <div class="user">
-        <img src="img.jpeg" alt="">
+    <header>
+      <div class="user" data-aos="fade-right">
+        <img src="img.jpeg" alt="" />
         <h3 class="name">Gourav Rana</h3>
-    <p class="post"></p>
-    </div>
+        <p class="post"></p>
+      </div>
 
-    <nav class="navbar">
+      <nav class="navbar" data-aos="fade-right">
         <ul>
-            <li><a href="#home">home</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#education">education</a></li>
-            <li><a href="#portfolio">projects</a></li>
-            <li><a href="#contact">contact</a></li>
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#education">education</a></li>
+          <li><a href="#portfolio">projects</a></li>
+          <li><a href="#contact">contact</a></li>
         </ul>
-    </nav>
+      </nav>
+    </header>
 
-</header>
+    <!-- header section ends -->
 
-<!-- header section ends -->
+    <div id="menu" class="fas fa-bars"></div>
 
-<div id="menu" class="fas fa-bars"></div>
+    <!-- home section starts  -->
 
-<!-- home section starts  -->
+    <section class="home" id="home">
+      <h3 data-aos="zoom-in-up">HI THERE !</h3>
+      <h1 data-aos="zoom-in-up"><span> I'M Gourav Rana</span></h1>
+      <p data-aos="zoom-in-up">
+        Recently graduate in BCA Looking for opportunity in Front End
+        Development. I'm passionate about all the things of Front End
+        Development. I care about writing clean code and I genuinely love to
+        learn new technologies, building websites that are usable and
+        responsive.
+      </p>
+      <a href="#about"
+        ><button class="btn">about me <i class="fas fa-user"></i></button
+      ></a>
+    </section>
 
-<section class="home" id="home">
+    <!-- home section ends -->
 
-    <h3>HI THERE !</h3>
-    <h1><span> I'M Gourav Rana</span></h1>
-    <p>
-        Recently graduate in BCA Looking for opportunity in Front End Development. I'm passionate about all the things of Front End Development. I care about writing clean code and I genuinely love to learn new technologies, building websites that are usable and responsive.
-    </p>
-    <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+    <!-- about section starts  -->
 
-</section>
+    <section class="about" id="about">
+      <h1 class="heading"><span>about</span> me</h1>
 
-<!-- home section ends -->
-
-<!-- about section starts  -->
-
-<section class="about" id="about">
-
-<h1 class="heading"> <span>about</span> me </h1>
-
-<div class="row">
-
-    <div class="info">
-        <h3> <span> name : </span> Gourav Rana </h3>
-        <h3> <span> age : </span> 21 </h3>
-        <h3> <span> gender : </span> male </h3>
-        <h3> <span> qualification : </span> BCA </h3>
-        <!-- <h3> <span> post : </span> front end developer </h3> -->
-        <a href="#"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
-    </div>
-
-    <div class="counter">
-    <div  class="skill"><h3>SKILLS</h3></div>
-        <div class="box">
-            <span><i class="fas fa-code"></i></span>
-            <h1>HTML</h1>
+      <div class="row">
+        <div class="info" data-aos="zoom-in-up">
+          <h3><span> name : </span> Gourav Rana</h3>
+          <h3><span> age : </span> 21</h3>
+          <h3><span> gender : </span> male</h3>
+          <h3><span> qualification : </span> BCA</h3>
+          <!-- <h3> <span> post : </span> front end developer </h3> -->
+          <a href="#"
+            ><button class="btn">
+              download CV <i class="fas fa-download"></i></button
+          ></a>
         </div>
 
-        <div class="box">
+        <div class="counter">
+          <div class="skill"><h3>SKILL</h3></div>
+          <div class="box" data-aos="zoom-in-up">
+            <span><i class="fas fa-code"></i></span>
+            <h1>HTML</h1>
+          </div>
+
+          <div class="box" data-aos="zoom-in-up">
             <span><i class="fas fa-code"></i></span>
             <!-- <span>100+</span> -->
             <h1>CSS</h1>
-        </div>
+          </div>
 
-            <div class="box">
+          <div class="box" data-aos="zoom-in-up">
             <span><i class="fas fa-code"></i></span>
             <!-- <span>430+</span> -->
             <h1>JavaScript</h1>
-        </div>
+          </div>
 
-        <div class="box">
+          <div class="box" data-aos="zoom-in-up">
+            <span><i class="fas fa-code"></i></span>
+            <!-- <span>12+</span> -->
+            <h1>Bootstrap</h1>
+          </div>
+
+          <div class="box" data-aos="zoom-in-up">
             <span><i class="fas fa-code"></i></span>
             <!-- <span>12+</span> -->
             <h1>GIT</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- education section starts  -->
+
+    <section class="education" id="education">
+      <h1 class="heading">my <span>education</span></h1>
+
+      <div class="box-container">
+        <div class="box" data-aos="zoom-in-up">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2015-2016</span>
+          <h3>10th Boards</h3>
+          <p>
+            Indira Memorial Sen Secondary School Bhota with 77.71% in Himachal
+            Pradesh Board.
+          </p>
         </div>
 
-    </div>
+        <div class="box" data-aos="zoom-in-up">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2016-2017</span>
+          <h3>11th Class</h3>
+          <p>
+            Indira Memorial Sen Secondary School Bhota with 63.6% in Himachal
+            Pradesh Board.
+          </p>
+        </div>
 
-</div>
+        <div class="box" data-aos="zoom-in-up">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2017-2018</span>
+          <h3>12th Boards</h3>
+          <p>
+            Indira Memorial Sen Secondary School Bhota with 67.40% in Himachal
+            Pradesh Board.
+          </p>
+        </div>
 
-</section>
+        <div class="box" data-aos="zoom-in-up">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2018-2021</span>
+          <h3>Bachelor of Computer Application(BCA)</h3>
+          <p>
+            Career Point University Hamirpur in Himachal Pradesh with 8.3 CGPA
+          </p>
+        </div>
 
-<!-- about section ends -->
+        <div class="box" data-aos="zoom-in-up">
+          <i class="fas fa-graduation-cap"></i>
+          <span>07/2020-08/2020</span>
+          <h3>Training</h3>
+          <p>
+            Web development Training in Career Point University Hamirpur in
+            Himachal Pradesh. Learning all the things about web development like
+            HTML, CSS, and JavaScript core concepts.,also learning some basic
+            things of WordPress.
+          </p>
+        </div>
 
-<!-- education section starts  -->
+        <div class="box" data-aos="zoom-in-up">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2021</span>
+          <h3>Making Personal Project</h3>
+          <p>
+            I have created many projects in HTML, CSS, and JavaScript like Food
+            delivery website, Netflix landing clone page, To-Do list, and
+            Meditation app, etc.
+          </p>
+        </div>
+      </div>
+    </section>
 
-<section class="education" id="education">
+    <!-- education section ends -->
 
-<h1 class="heading"> my <span>education</span> </h1>
+    <!-- portfolio section starts  -->
 
-<div class="box-container">
+    <section class="portfolio" id="portfolio">
+      <h1 class="heading">My <span>Projects</span></h1>
 
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2015-2016</span>
-        <h3>10th Boards</h3>
-        <p>Indira Memorial Sen Secondary School Bhota with 77.71% in Himachal Pradesh Board.
-        </p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2016-2017</span>
-        <h3>11th Class</h3>
-        <p>Indira Memorial Sen Secondary School Bhota with 63.6% in Himachal Pradesh Board.</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2017-2018</span>
-        <h3>12th Boards</h3>
-        <p>Indira Memorial Sen Secondary School Bhota with 67.40% in Himachal Pradesh Board.</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2018-2021</span>
-        <h3>Bachelor of Computer Application(BCA)</h3>
-        <p>Career Point University Hamirpur in Himachal Pradesh with 8.39 CGPA</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>07/2020-08/2020</span>
-        <h3>Training</h3>
-        <p>Web development Training  in Career Point University Hamirpur in Himachal Pradesh. Learning all the things about web development like HTML, CSS, and JavaScript core concepts.,also learning some basic things of WordPress.  </p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2021</span>
-        <h3>Making Personal Project</h3>
-        <p>I have created many projects in HTML, CSS, and JavaScript like Food delivery website, Netflix landing clone page, To-Do list, and Meditation app, etc.</p>
-    </div>
-
-</div>
-
-</section>
-
-<!-- education section ends -->
-
-<!-- portfolio section starts  -->
-
-<section class="portfolio" id="portfolio">
-
-<h1 class="heading"> My <span>Projects</span> </h1>
-
-<div class="box-container">
-
-    <div class="box">
-        <a href="https://github.com/GouravRana807/background-video-website">
-            <img alt="background-video-website" src="background.jpg">
+      <div class="box-container">
+        <div class="box" data-aos="zoom-in-up">
+          <a href="https://github.com/GouravRana807/background-video-website">
+            <img alt="background-video-website" src="background.jpg" />
             <!-- width=10" height="10"> -->
-         <p>Background-Video Website</p>
-         </a>
-        <!-- <img src="images/img1.jpg" alt="">
-        <a href="https://github.com/GouravRana807/background-video-website">gitdfdfdsh</a>
-        <p class="op">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab.</p> -->
-    </div>
+            <p>Background-Video Website</p>
+          </a>
+        </div>
 
-    <div class="box">
-        <a href="https://github.com/GouravRana807/food-delivery-website">
-            <img alt="food-delivery-website" src="food delivery.jpg">
+        <div class="box" data-aos="zoom-in-up">
+          <a href="https://github.com/GouravRana807/food-delivery-website">
+            <img alt="food-delivery-website" src="food delivery.jpg" />
             <!-- width=10" height="10"> -->
-         <p>Food Delivery Website</p>
-        </a>
-        <!-- <img src="images/img2.jpg" alt=""> -->
-    </div>
+            <p>Food Delivery Website</p>
+          </a>
+          <!-- <img src="images/img2.jpg" alt=""> -->
+        </div>
 
-    <div class="box">
-        <a href="https://github.com/GouravRana807/meditation-app">
+        <div class="box" data-aos="zoom-in-up">
+          <a href="https://github.com/GouravRana807/meditation-app">
             <img alt="meditation-app" src="meditate-g76dd653e7_1920.jpg"
             width=10" height="10">
-         <p>Meditation App</p>
-        </a>
-        <!-- <img src="images/img3.jpg" alt=""> -->
-    </div>
-
-    <div class="box">
-        <a href="https://github.com/GouravRana807/netflix-landing-page-clone">
-            <img alt="netflix-landing-page-clone" src="netflix.jpg"
-            width=10" height="10">
-         <p>Netflix landing Page Clone</p>
-        </a>
-        <!-- <img src="images/img4.jpg" alt=""> -->
-        
-    </div>
-
-    <div class="box">
-        <a href="https://github.com/GouravRana807/to-do-list">
-            <img alt="to-do-list" src="todlist.jpg"
-            width=10" height="10">
-         <p>TO-DO List</p>
-        </a>
-        <!-- <img src="images/img5.jpg" alt=""> -->
-    </div>
-
-    <div class="box">
-        <a href="https://github.com/GouravRana807/Parallax-website">
-            <img alt="Parallax-website" src="parrlax.jpg"
-         width=10" height="10">
-         <p>Parallax Website</p>
-        </a>
-        <!-- <img src="images/img6.jpg" alt=""> -->
-    </div>
-
-</div>
-
-</section>
-
-<!-- portfolio section ends -->
-
-<!-- contact section starts  -->
-
-<sectionn class="contact" id="contact">
-
-<h1 class="heading"> <span>contact</span> me </h1>
-
-<div class="row">
-
-    <div class="content">
-
-        <h3 class="title">contact info</h3>
-
-        <div class="info">
-            <h3> 
-                <a href="https://www.gmail.com">  <i class="fas fa-envelope"></i> gouravrana870@gmail.com</a>
-            </h3>
-            <h3>
-                <a href="https://www.linkedin.com/in/gouravrana/">  <i class="fab fa-linkedin-in"></i> linkedin</a></h3>
-
-            <h3> <a href="https://github.com/GouravRana807">  <i class="fab fa-github"></i> Github</a></h3>
-
-            <h3>  <a href="#">  <i class="fas fa-phone"></i> +918278887509</a></h3>
+            <p>Meditation App</p>
+          </a>
+          <!-- <img src="images/img3.jpg" alt=""> -->
         </div>
 
-    </div>
+        <div class="box" data-aos="zoom-in-up">
+          <a href="https://github.com/GouravRana807/netflix-landing-page-clone">
+            <img alt="netflix-landing-page-clone" src="netflix.jpg" width=10"
+            height="10">
+            <p>Netflix landing Page Clone</p>
+          </a>
+          <!-- <img src="images/img4.jpg" alt=""> -->
+        </div>
 
-   
+        <div class="box" data-aos="zoom-in-up">
+          <a href="https://github.com/GouravRana807/to-do-list">
+            <img alt="to-do-list" src="todlist.jpg" width=10" height="10">
+            <p>TO-DO List</p>
+          </a>
+          <!-- <img src="images/img5.jpg" alt=""> -->
+        </div>
 
-</div>
+        <div class="box" data-aos="zoom-in-up">
+          <a href="https://github.com/GouravRana807/Parallax-website">
+            <img alt="Parallax-website" src="parrlax.jpg" width=10" height="10">
+            <p>Parrlax Website</p>
+          </a>
+          <!-- <img src="images/img6.jpg" alt=""> -->
+        </div>
+      </div>
+    </section>
 
-</sectionn>
+    <!-- portfolio section ends -->
 
-<!-- contact section ends -->
+    <!-- contact section starts  -->
 
+    <sectionn class="contact" id="contact">
+      <h1 class="heading"><span>contact</span> me</h1>
 
-<!-- scroll top button  -->
+      <div class="row">
+        <div class="content">
+          <h3 class="title">contact info</h3>
 
-<a href="#home" class="top">
-    <img src="scroll-top-img.png" alt="">
-</a>
+          <div class="info">
+            <h3>
+              <a href="https://www.gmail.com">
+                <i class="fas fa-envelope"></i> gouravrana870@gmail.com</a
+              >
+            </h3>
+            <h3>
+              <a href="https://www.linkedin.com/in/gouravrana/">
+                <i class="fab fa-linkedin-in"></i> linkedin</a
+              >
+            </h3>
 
+            <h3>
+              <a href="https://github.com/GouravRana807">
+                <i class="fab fa-github"></i> Github</a
+              >
+            </h3>
 
+            <h3>
+              <a href="#"> <i class="fas fa-phone"></i> +918278887509</a>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </sectionn>
 
+    <!-- contact section ends -->
 
+    <!-- scroll top button  -->
 
+    <a href="#home" class="top">
+      <img src="scroll-top-img.png" alt="" />
+    </a>
 
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
+    <!-- custom js file link  -->
+    <!-- <script src="js/scriptt.js"></script> -->
+    <script src="./script/scriptt.js"></script>
 
-
-
-
-
-
-
-
-<!-- jquery cdn link  -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-<!-- custom js file link  -->
-<!-- <script src="js/scriptt.js"></script> -->
-<script src="scriptt.js"></script>
-
-
-</body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 3000,
+      });
+    </script>
+  </body>
 </html>
