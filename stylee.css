@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
 
 :root{
     --yellow:#0a0db7;
 }
 
 *{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Rancho', cursive;
     margin:0; padding:0;
     box-sizing: border-box;
     text-decoration: none;
@@ -43,7 +44,7 @@ body{
 }
 
 section{
-    min-height: 100vh;
+    min-height: 75vh;
     padding:1rem;
 }
 
@@ -73,7 +74,7 @@ section{
     margin:0 6rem;
     font-size: 4rem;
     padding:1rem;
-    border-bottom: .1rem solid #fff4;
+    /* border-bottom: .1rem solid #fff4; */
     color:#fff;
 }
 
@@ -155,18 +156,20 @@ header .navbar ul li a:hover{
     justify-content: center;
     flex-flow: column;
     padding:0 15rem;
-    /* background-image: url();
+    /* background-image: url('../img/pexels-yan-krukov-9072383.jpg');
     height: 85vh;
     width: 100vw; */
-    
     background-repeat: no-repeat;
     background-position: center;
     background: linear-gradient(
-        rgb(95, 95, 93, 0.34), rgba(13, 13, 13, 0.14) )
-    , url(pexels-pixabay-315191.jpg);
+        /* rgb(95 95 93 / 19%), 
+        rgb(13 13 13 / 14%) */
+        rgb(50 2 243 / 59%), 
+        rgb(241 6 6 / 45%)
+    ), url(pexels-pixabay-315191.jpg);
+
 
     background-size: cover;
-    /* margin-top: 0.50rem; */
     height: 85vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -186,13 +189,14 @@ header .navbar ul li a:hover{
 .home h1 span{
     color: #fff;
     font-size: 8rem;
-    font-weight: 900;
+    /* font-weight: 900; */
 }
 
 .home p{
-    font-size:3rem;
+    font-size:4rem;
     color:#eee;
     padding: 1rem 0;
+    font-weight: 900;
 }
 
 .about .row{
@@ -227,7 +231,7 @@ header .navbar ul li a:hover{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: -19rem;
+    /* margin-bottom: -19rem; */
 }
 /* skill */
 .about .row .counter .skill{
@@ -275,6 +279,18 @@ header .navbar ul li a:hover{
     padding-left: 3rem;
     background-repeat: no-repeat;
     background-position: center;
+
+    background: linear-gradient(
+        rgb(0 1 16 / 28%),
+         #000000
+    ), url(andrew-schultz-EAlbsTo6nuQ-unsplash.jpg);
+
+
+    background-size: cover;
+    /* height: 85vh; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     
 }
 
@@ -304,6 +320,7 @@ header .navbar ul li a:hover{
     font-size: 1.4rem;
     color:#eee;
     padding: 1rem 0;
+    font-weight: 400;
 }
 
 .education .box-container .box i{
@@ -552,8 +569,9 @@ header .navbar ul li a:hover{
         font-size: 4rem;
     }
     .home p {
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
+  
  }
  @media (max-width:518px) {
     .education .box-container {
