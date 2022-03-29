@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lexend+Deca:wght@300;400&display=swap');
 :root {
-  --yellow: #1d58ad;
+  --yellow: #545454;
 }
 
 * {
@@ -227,7 +227,7 @@ header .navbar ul li a:hover {
 
 .about .row .info h3 {
   font-size: 2rem;
-  color: var(--yellow);
+  color: #b7afaf;
   padding: 1rem 0;
   font-weight: normal;
 }
@@ -266,7 +266,7 @@ header .navbar ul li a:hover {
 }
 
 .about .row .counter .box:hover {
-  background: #222;
+  transform: rotate(-45deg);
 }
 
 .about .row .counter .box span {
