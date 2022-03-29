@@ -177,7 +177,7 @@ header .navbar ul li a:hover {
 .home h1 {
   font-size: 5rem;
   color: #fff;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 .home h1 span {
@@ -523,11 +523,15 @@ header .navbar ul li a:hover {
 }
 
 @media (max-width: 566px) {
-  .home h1 span {
+  .home h1 {
+    margin-bottom:"1rem";
+  }
+   .home h1 span {
     font-size: 4rem;
   }
   .home p {
-    font-size: 3rem;
+    font-size: 1.6rem;
+    
   }
   .home {
     height: 85vh;
