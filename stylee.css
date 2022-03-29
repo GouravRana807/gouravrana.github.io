@@ -50,7 +50,6 @@ section {
 }
 
 .btn {
-  /* display: none; */
   visibility: hidden;
   padding: 0.7rem 3rem;
   background: #333;
@@ -161,7 +160,7 @@ header .navbar ul li a:hover {
   background-repeat: no-repeat;
   background-position: center;
   background: linear-gradient(rgb(41 40 44 / 16%), rgb(34 33 33 / 42%)),
-    url(../img/soj);
+    url(yogi);
 
   background-size: cover;
   height: 100vh;
@@ -184,7 +183,6 @@ header .navbar ul li a:hover {
 .home h1 span {
   color: #fff;
   font-size: 8rem;
-  /* font-weight: 900; */
 }
 .ipj {
   display: flex;
@@ -200,7 +198,6 @@ header .navbar ul li a:hover {
   padding: 1rem 0;
   font-weight: 400;
   margin-top: 4rem;
-  /* margin-bottom: -7rem; */
 }
 
 .about .row {
@@ -235,13 +232,11 @@ header .navbar ul li a:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /* margin-bottom: -19rem; */
 }
 /* skill */
 .about .row .counter .skill {
   display: flex;
   background-color: var(--yellow);
-  /* background-color: blue; */
   color: white;
   position: absolute;
   margin-top: -8rem;
@@ -285,10 +280,9 @@ header .navbar ul li a:hover {
   background-position: center;
 
   background: linear-gradient(rgb(41 40 44 / 16%), rgb(34 33 33 / 42%)),
-    url(../img/blabuig);
+    url(ronald-langeveld-g622enRZeec-unsplash.jpg);
 
   background-size: cover;
-  /* height: 85vh; */
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -374,10 +368,6 @@ header .navbar ul li a:hover {
   justify-content: center;
 }
 .portfolio .box-container .box a p {
-  /* display: flex;
-    justify-content: center; */
-  /* position: absolute; */
-  /* background:var(--yellow); */
   background: #111;
   color: #fff;
   margin-bottom: 2rem;
@@ -448,13 +438,11 @@ header .navbar ul li a:hover {
 
 .contact .row .content .info {
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
   margin-bottom: 3rem;
-  /* flex-direction: row; */
 }
 
 .contact .row .content .info h3 {
@@ -542,7 +530,7 @@ header .navbar ul li a:hover {
     font-size: 3rem;
   }
   .home {
-    height: 75vh;
+    height: 85vh;
   }
 }
 @media (max-width: 518px) {
