@@ -139,8 +139,11 @@ header .navbar ul li a:hover {
   background: var(--yellow);
 }
 
-.bot{
-  margin-bottom:-3.8rem;
+.bot {
+  margin-bottom: -6.2rem;
+}
+.opacot {
+  opacity: 0.8;
 }
 #menu {
   position: fixed;
@@ -202,7 +205,6 @@ header .navbar ul li a:hover {
   font-weight: 400;
   margin-top: 4rem;
   opacity: 0.8 !important;
-
 }
 
 .about .row {
@@ -528,14 +530,13 @@ header .navbar ul li a:hover {
 }
 
 @media (max-width: 566px) {
-
-   .home h1 span {
+  .home h1 span {
     font-size: 4rem;
   }
   .home p {
-    font-size: 1.6rem
+    font-size: 1.6rem;
   }
-    .home .pop {
+  .home .pop {
     font-size: 2.1rem;
   }
   .home {
