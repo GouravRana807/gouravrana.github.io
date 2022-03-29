@@ -523,15 +523,16 @@ header .navbar ul li a:hover {
 }
 
 @media (max-width: 566px) {
-  .home h1 {
-    margin-bottom:"1rem";
-  }
+
    .home h1 span {
     font-size: 4rem;
   }
   .home p {
-    font-size: 1.6rem;
-    
+    font-size: 1.6rem
+  }
+    .home .pop {
+    font-size: 2.1rem;
+      margin-bottom:0;
   }
   .home {
     height: 85vh;
